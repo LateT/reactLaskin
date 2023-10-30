@@ -1,1 +1,1 @@
-First react app
+First react app, calculator with very basic arithmetic operations.
