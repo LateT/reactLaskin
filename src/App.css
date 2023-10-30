@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.num {
+    padding-top: 18px;
+    font-weight: bold;
+    background-color: gray;
+    margin: 3px;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.resultButton {
+    background-color: blue;
+    grid-column: 2/4;
+}
+.resultContainer {
+    grid-column: 1/5;
+    height: 60px;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.calculation {
+    text-align:left;
+    color: black;
+    width: 218px;
+    height: 24px;
+}
+
+.result {
+    text-align: right;
+    color: black;
+}
